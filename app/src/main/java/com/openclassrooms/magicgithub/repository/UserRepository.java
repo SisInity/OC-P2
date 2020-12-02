@@ -8,7 +8,7 @@ import java.util.List;
 public class UserRepository {
 
     private final ApiService apiService; // TODO: A utiliser
-
+    //il suffit de faire appel aux méthodes getUsers, generateRandomUser et deleteUser de l'ApiService.java
 
 
     public UserRepository(ApiService apiService) {
