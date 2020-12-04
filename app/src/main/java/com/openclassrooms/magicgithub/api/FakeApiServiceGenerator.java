@@ -36,7 +36,7 @@ public abstract class FakeApiServiceGenerator {
             new User("019", "Henri", "https://gravatar.com/avatar/389eeb6d39a070c5b26752d94c36177d?s=400&d=robohash&r=x"),
             new User("020", "Rémi", "https://gravatar.com/avatar/20f77e16db364b378fbdacce39cbe324?s=400&d=robohash&r=x")
     );
-    //créé des fake usersqui seront par la suite ajoutée de manière aléatoire
+    //créé des fake users qui seront par la suite ajoutés de manière aléatoire
     public static List<User> FAKE_USERS_RANDOM = Arrays.asList(
             new User("021", "Lea", "https://api.adorable.io/AVATARS/512/21.png"),
             new User("022", "Geoffrey", "https://gravatar.com/avatar/616b6ebe60df531660d373785758be58?s=400&d=robohash&r=x"),
